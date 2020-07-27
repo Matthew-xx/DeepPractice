@@ -19,7 +19,7 @@ func Consumer(in <- chan int)  {
 }
 
 func main()  {
-	ch := make(chan int,5)  //可缓存(异步）也可不缓存（同步），看需求
+	ch := make(chan int,5)  //可缓存（异步）也可不缓存（同步），看需求
 	go Producer(ch)   //子go程，生成
 	Consumer(ch)  //主go程 消费
 }
