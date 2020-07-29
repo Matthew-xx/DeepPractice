@@ -16,43 +16,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/produce/producer.go">
+        <entry file="file://$PROJECT_DIR$/select/select斐波那契.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="8" selection-end-line="24" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/produce/模拟订单.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+            <state relative-caret-position="89">
+              <caret line="24" column="14" selection-end-line="31" />
               <folding>
-                <element signature="e#14#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/定时器/timer.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-              <folding>
-                <element signature="e#14#39#0" expanded="true" />
+                <element signature="e#14#93#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/定时器/周期定时器.go">
+        <entry file="file://$PROJECT_DIR$/select/select超时处理.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+            <state relative-caret-position="414">
+              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
               <folding>
                 <element signature="e#14#39#0" expanded="true" />
               </folding>
@@ -81,6 +60,8 @@
         <option value="$PROJECT_DIR$/produce/模拟订单.go" />
         <option value="$PROJECT_DIR$/定时器/timer.go" />
         <option value="$PROJECT_DIR$/定时器/周期定时器.go" />
+        <option value="$PROJECT_DIR$/select/select斐波那契.go" />
+        <option value="$PROJECT_DIR$/select/select超时处理.go" />
       </list>
     </option>
   </component>
@@ -119,7 +100,7 @@
             <path>
               <item name="DeepPractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="DeepPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="定时器" type="462c0819:PsiDirectoryNode" />
+              <item name="select" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -152,7 +133,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build 周期定时器.go">
+  <component name="RunManager" selected="Go Build.go build select超时处理.go">
     <configuration name="go build 周期定时器.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="DeepPractice" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -169,6 +150,22 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build select斐波那契.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="DeepPractice" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/select/select斐波那契.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build select超时处理.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="DeepPractice" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/select/select超时处理.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build timer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="DeepPractice" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -179,6 +176,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build select超时处理.go" />
+        <item itemvalue="Go Build.go build select斐波那契.go" />
         <item itemvalue="Go Build.go build 周期定时器.go" />
         <item itemvalue="Go Build.go build timer.go" />
         <item itemvalue="Go Build.go build producer.go" />
@@ -186,7 +185,7 @@
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="815" y="46" width="869" height="657" extended-state="0" />
+    <frame x="764" y="35" width="869" height="657" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.3498146" />
@@ -194,7 +193,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28107074" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28107074" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -252,7 +251,27 @@
     <entry file="file://$PROJECT_DIR$/定时器/周期定时器.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
-          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+          <folding>
+            <element signature="e#14#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/select/select斐波那契.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="24" column="14" selection-end-line="31" />
+          <folding>
+            <element signature="e#14#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/select/select超时处理.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
           <folding>
             <element signature="e#14#39#0" expanded="true" />
           </folding>
