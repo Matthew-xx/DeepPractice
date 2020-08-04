@@ -8,7 +8,8 @@ import (
 
 func main()  {
 	//主动发起连接请求
-	conn,err :=net.Dial("tcp","127.0.0.1:8001")
+	//conn,err :=net.Dial("tcp","127.0.0.1:8001")
+	conn,err :=net.Dial("tcp","192.168.0.5:8001")
 	if err != nil {
 		fmt.Println("Dial err:",err)
 		return

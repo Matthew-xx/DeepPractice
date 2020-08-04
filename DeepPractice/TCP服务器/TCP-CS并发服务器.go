@@ -8,7 +8,8 @@ import (
 
 func main()  {
 	//创建监听套接字
-	listener,err := net.Listen("tcp","127.0.0.1:8001")
+	//listener,err := net.Listen("tcp","127.0.0.1:8001")
+	listener,err := net.Listen("tcp","192.168.0.5:8001")
 	if err!= nil {
 		fmt.Println("net.listener err:",err)
 		return
