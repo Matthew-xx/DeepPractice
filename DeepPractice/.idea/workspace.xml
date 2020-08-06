@@ -16,30 +16,48 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TCP服务器/TCP-CS并发服务器.go">
+        <entry file="file://$PROJECT_DIR$/文件传输/发送端.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="11" column="49" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TCP服务器/TCP-CS并发客户端.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="252">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <folding>
+                <element signature="e#14#37#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/文件传输/发送端.go">
+        <entry file="file://$PROJECT_DIR$/http服务器（B-S)/httpy应答包.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="126">
+              <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
               <folding>
-                <element signature="e#14#37#0" expanded="true" />
+                <element signature="e#14#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/http服务器（B-S)/http请求包-客户端.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+              <folding>
+                <element signature="e#14#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/http服务器（B-S)/http请求包.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="16" />
+              <folding>
+                <element signature="e#14#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -49,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/文件传输/接收端.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="648">
-              <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+              <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
               <folding>
                 <element signature="e#14#50#0" expanded="true" />
               </folding>
@@ -85,6 +103,10 @@
         <option value="$PROJECT_DIR$/TCP服务器/TCP-CS并发客户端.go" />
         <option value="$PROJECT_DIR$/文件传输/发松端.go" />
         <option value="$PROJECT_DIR$/文件传输/接收端.go" />
+        <option value="$PROJECT_DIR$/http服务器/http请求包.go" />
+        <option value="$PROJECT_DIR$/http服务器/httpy应答包.go" />
+        <option value="$PROJECT_DIR$/http服务器（B-S)/http请求包-客户端.go" />
+        <option value="$PROJECT_DIR$/http服务器（B-S)/httpy应答包.go" />
       </list>
     </option>
   </component>
@@ -98,9 +120,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="249" />
-    <option name="y" value="68" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="673" />
+    <option name="y" value="61" />
     <option name="width" value="869" />
     <option name="height" value="657" />
   </component>
@@ -122,7 +144,7 @@
             <path>
               <item name="DeepPractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="DeepPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="文件传输" type="462c0819:PsiDirectoryNode" />
+              <item name="http服务器（B-S)" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -156,15 +178,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build 发送端.go">
-    <configuration name="go build TCP-CS并发服务器.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="DeepPractice" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/TCP服务器/TCP-CS并发服务器.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build httpy应答包.go">
     <configuration name="go build TCP-CS并发客户端.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="DeepPractice" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -189,19 +203,27 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 条件变量producer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build http请求包-客户端.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="DeepPractice" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/produce/条件变量producer.go" />
+      <filePath value="$PROJECT_DIR$/http服务器（B-S)/http请求包-客户端.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build select斐波那契.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build http请求包.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="DeepPractice" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/select/select斐波那契.go" />
+      <filePath value="$PROJECT_DIR$/http服务器/http请求包.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build httpy应答包.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="DeepPractice" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/http服务器（B-S)/httpy应答包.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -215,11 +237,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build httpy应答包.go" />
+        <item itemvalue="Go Build.go build http请求包-客户端.go" />
+        <item itemvalue="Go Build.go build http请求包.go" />
         <item itemvalue="Go Build.go build 发送端.go" />
         <item itemvalue="Go Build.go build 接收端.go" />
-        <item itemvalue="Go Build.go build TCP-CS并发服务器.go" />
-        <item itemvalue="Go Build.go build 条件变量producer.go" />
-        <item itemvalue="Go Build.go build select斐波那契.go" />
       </list>
     </recent_temporary>
   </component>
@@ -233,15 +255,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="673" y="61" width="869" height="657" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22249691" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22249691" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4409836" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43977055" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -357,7 +379,7 @@
     <entry file="file://$PROJECT_DIR$/文件传输/接收端.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
-          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
           <folding>
             <element signature="e#14#50#0" expanded="true" />
           </folding>
@@ -367,9 +389,39 @@
     <entry file="file://$PROJECT_DIR$/文件传输/发送端.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
             <element signature="e#14#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http服务器（B-S)/http请求包.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="16" />
+          <folding>
+            <element signature="e#14#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http服务器（B-S)/http请求包-客户端.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+          <folding>
+            <element signature="e#14#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http服务器（B-S)/httpy应答包.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          <folding>
+            <element signature="e#14#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
