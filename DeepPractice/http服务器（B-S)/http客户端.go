@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"io"
 	"net/http"
 )
 
@@ -28,11 +29,10 @@ func main()  {
 			fmt.Println("read finish")
 			break
 		}
-		//if err != nil {
-		//	fmt.Println("body read err",err)
-		//	break
-		//	//return   //选return的话，fmt.Printf("|%v|\n",result)还没打印就返回了
-		//}
+		if err != nil && err != io.EOF {
+			fmt.Println("body read err",err)
+			return
+		}
 		result += string(buf[:n])
 	}
 	fmt.Printf("|%v|\n",result)
