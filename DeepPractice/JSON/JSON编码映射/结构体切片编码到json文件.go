@@ -20,7 +20,7 @@ func main()  {
 	people := make([]Person,0)
 	people = append(people,p1,p2,p3)
 
-	jsonFile,_ := os.OpenFile("F:/Software/go_path/my_pro/DeepPractice/JSON/JSON编码映射/测试.json",os.O_CREATE|os.O_WRONLY|os.O_TRUNC,666)
+	jsonFile,_ := os.OpenFile("F:/Software/go_path/my_pro/DeepPractice/JSON/JSON编码映射/切片.json",os.O_CREATE|os.O_WRONLY|os.O_TRUNC,666)
 	defer jsonFile.Close()
 
 	encoder := json.NewEncoder(jsonFile)
